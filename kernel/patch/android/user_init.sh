@@ -1,6 +1,6 @@
 #!/bin/sh
 
-KPMS_DIR="/data/adb/ap/kpms/"
+KPMS_DIR="/data/adb/ap/kpms"
 MAGISK_POLICY_PATH="/data/adb/ap/bin/magiskpolicy"
 SUPERCMD="truncate"
 MAGISK_SCTX="u:r:magisk:s0"
