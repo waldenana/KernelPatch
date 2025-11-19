@@ -19,7 +19,7 @@ exec >>$LOG_FILE 2>&1
 set -x
 
 load_modules() {
-    for dir in "$KPMS_DIR/*"; do
+    for dir in $KPMS_DIR/*; do
         if [ ! -d "$dir" ]; then continue; fi
         if [ -e "$dir/disable" ]; then continue; fi
         main_sh="$dir/main.sh"
